@@ -1,5 +1,7 @@
 import java.util.*;
 
+@SuppressWarnings("unchecked")
+
 public class bfs {
     private int V;
     private LinkedList<Integer>[] adj;

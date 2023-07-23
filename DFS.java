@@ -1,7 +1,10 @@
 import java.util.*;
 
+@SuppressWarnings("unchecked")
+
 public class DFS {
     private int V;
+
     private LinkedList<Integer>[] adj;
 
     public DFS(int v) {
