@@ -4,7 +4,6 @@ public class doublylinkedlist {
 
     private static Node head;
     private static Node tail;
-    private static int size;
 
     private static class Node {
         private int data;
@@ -27,8 +26,6 @@ public class doublylinkedlist {
             newNode.prev = tail;
             tail = newNode;
         }
-
-        size++;
     }
 
     public static void removeElement(int element) {
@@ -55,7 +52,6 @@ public class doublylinkedlist {
                     current.next.prev = current.prev;
                 }
 
-                size--;
                 System.out.println("Element removed from the list.");
                 return;
             }
