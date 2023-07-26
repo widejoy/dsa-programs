@@ -32,6 +32,7 @@ public class DFS {
                 dfsUtil(adjacentNode, visited);
             }
         }
+
     }
 
     public static void main(String[] args) {
